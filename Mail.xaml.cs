@@ -23,13 +23,13 @@ namespace CplProgra_TT_APP_WPF
         public Mail()
         {
             InitializeComponent();
+            //khnx lhpu xnbh wgod
         }
 
         private void BtnSend_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                // 1. Récupération des données encodées par l'utilisateur
                 string senderEmail = txtSenderEmail.Text;
                 string senderPassword = txtSenderPassword.Password;
                 string recipientEmail = txtRecipientEmail.Text;
