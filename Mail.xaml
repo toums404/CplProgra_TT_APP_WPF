@@ -1,0 +1,32 @@
+﻿<Page x:Class="CplProgra_TT_APP_WPF.Mail"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CplProgra_TT_APP_WPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Mail">
+
+    <Grid Background="#FFCDC5C5">
+        <StackPanel Margin="20">
+            <Label Content="Votre adresse mail (expéditeur) :" />
+            <TextBox x:Name="txtSenderEmail" Margin="0,0,0,10" />
+
+            <Label Content="Mot de passe d'application :" />
+            <PasswordBox x:Name="txtSenderPassword" Margin="0,0,0,10" />
+
+            <Label Content="Adresse mail du destinataire :" />
+            <TextBox x:Name="txtRecipientEmail" Margin="0,0,0,10" />
+
+            <Label Content="Objet du message :" />
+            <TextBox x:Name="txtSubject" Margin="0,0,0,10" />
+
+            <Label Content="Message :" />
+            <TextBox x:Name="txtBody" Height="100" TextWrapping="Wrap" AcceptsReturn="True" Margin="0,0,0,10" />
+
+            <Button Content="Envoyer le mail" Click="BtnSend_Click" Padding="10" />
+        </StackPanel>
+
+    </Grid>
+</Page>

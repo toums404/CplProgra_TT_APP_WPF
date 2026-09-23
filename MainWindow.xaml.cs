@@ -20,5 +20,15 @@ namespace CplProgra_TT_APP_WPF
         {
             InitializeComponent();
         }
+
+        private void BtnMenuMail_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Mail());
+        }
+
+        private void BtnMenuAccueil_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("La page d'accueil sera créée plus tard !");
+        }
     }
 }
