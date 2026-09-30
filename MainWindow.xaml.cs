@@ -30,5 +30,10 @@ namespace CplProgra_TT_APP_WPF
         {
             MessageBox.Show("La page d'accueil sera créée plus tard !");
         }
+
+        private void BtnMenuTodo_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new TodoPage());
+        }
     }
 }
