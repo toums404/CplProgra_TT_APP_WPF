@@ -20,6 +20,8 @@
             <Button Content="Envoyer un Mail" Click="BtnMenuMail_Click" Margin="10,5" Padding="10" Background="#34495E" Foreground="White" BorderThickness="0" Cursor="Hand"/>
 
             <Button Content="To-Do List" Click="BtnMenuTodo_Click" Margin="10,5" Padding="10" Background="#34495E" Foreground="White" BorderThickness="0" Cursor="Hand"/>
+
+            <Button Content="Chronomètre" Click="BtnMenuChrono_Click" Margin="10,5" Padding="10" Background="#34495E" Foreground="White" BorderThickness="0" Cursor="Hand"/>
         </StackPanel>
 
         <Frame x:Name="MainFrame" Grid.Column="1" NavigationUIVisibility="Hidden" Background="White" />

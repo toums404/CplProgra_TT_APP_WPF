@@ -35,5 +35,10 @@ namespace CplProgra_TT_APP_WPF
         {
             MainFrame.Navigate(new TodoPage());
         }
+
+        private void BtnMenuChrono_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new ChronoPage());
+        }
     }
 }
